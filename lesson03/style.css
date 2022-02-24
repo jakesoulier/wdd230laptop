@@ -1,0 +1,83 @@
+body {
+    align-items: center;
+    text-align: left;
+    width: 850px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: #8C665E;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.links {
+    width: 25%;
+}
+
+.links a {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #8C665E;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    color: #261817;
+}
+
+h2 {
+    color: brown;
+    text-decoration: underline;
+}
+
+.color {
+    text-decoration: none;
+}
+
+.color:hover {
+    background-color: pink;
+}
+
+.typo {
+    text-decoration: none;
+}
+
+.typo:hover {
+    background-color: pink;
+}
+
+.audience {
+    text-decoration: none;
+}
+
+.audience:hover {
+    background-color: pink;
+}
+
+.home {
+    text-decoration: none;
+}
+
+.home:hover {
+    background-color: pink;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}

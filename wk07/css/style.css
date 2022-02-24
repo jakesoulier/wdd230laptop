@@ -1,0 +1,20 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+picture {
+    padding: 5em;
+}
+
+article img[data-src] {
+    filter: blur(0.2em);
+}
+
+article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}

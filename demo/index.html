@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        header {
+            padding: 1em;
+        }
+        
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            padding: 1em;
+        }
+        
+        @media screen and (min-width: 570px) {
+            .inner-flex {
+                display: flex;
+                gap: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Demo Page for Image</h1>
+    </header>
+    <main>
+        <section class="flex-container">
+            <h2>The Slopes</h2>
+            <div class="inner-flex">
+                <img src="images/yellow-snowboard-2400x.jpg" alt="snowboard">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit accusamus inventore aperiam eius quia debitis dicta beatae cum, et molestias excepturi asperiores unde animi quisquam fuga nulla recusandae repudiandae mollitia?</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

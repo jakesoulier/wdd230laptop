@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Eastmill Creek, Chamber of Commerce, Eastmill Creek Weather" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eastmill Creek | Chamber of Commerce</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src='images/logo2mc.png' alt="Logo image" />
+        <h1>East Millcreek<br><span class="h1_size2">Chamber of Commerce</span></h1>
+        <div class="social">
+            <a href="https://www.facebook.com"><img src="images/facebook_logo.jpg" alt="Facebook logo" /></a>
+            <a href="https://www.linkedin.com"><img src="images/link_logo.png" alt="Linkedin Logo" /></a>
+        </div>
+        <div id="burger">
+            <span class="material-icons" onclick="displayOutput()">
+            list
+        </span>
+        </div>
+        <nav class="links">
+            <ul>
+                <li>
+                    <a href="discover.html">Discover</a>
+                </li>
+                <li><a href="director.html">Director</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="date"><span>Monday</span></div>
+        <!-- <p class="date"></p> -->
+    </header>
+
+    <main>
+        <span class="divsite">
+            <img class="firstbackground" src="images/millcreekbkg.jpg" alt="millcreek background">
+            <img class="secondbackground" src="images/millcreekbkg3.jpg" alt="second millcreek background">
+            <p class="site">
+                Welcome to the best part of Salt Lake!
+            </p>
+            <button>JOIN THE COUNCIL</button>
+        </span>
+        <span class="divevent">
+            <p class="event">
+                Eastmill Creek 4th of July Parade!
+                <img src="images/rocketline1.png" alt="rocket vector">
+            </p>
+            <p class="julyinfo">Join us for our 4th of July Parade where we start at the top of Evergreen Avenue and
+                goes all the way to Evergreen Junior High</p>
+
+        </span>
+        <span class="divweather">
+            <p class="weather">
+                Weather
+            </p>
+            <img id="sun" src="images/sun.png" alt="sunshine">
+            <p class="weatherinfo">75 degrees</p>
+        </span>
+        <span class="divnews">
+            <p class="news">
+                News
+            </p>
+            <p class="newsinfo">It has been <u>56</u> days since the last committed crime.</p>
+        </span>
+        <span class="spotlights">
+            <div class="eat">
+                <p class="spotlight1">Places to Eat</p>
+                <button class="breakfast">breakfast</button>
+                <button class="lunch">lunch</button>
+                <button class="dinner">dinner</button>
+            </div>
+            <div class="stay">
+                <p class="spotlight2">Places to Stay</p>
+                <img src="images/hotel.png" alt="hotel">
+                <li><a href="https://www.hotels.com/de11031924/hotels-east-millcreek-utah/">Hotels</a></li>
+                <img src="images/house.png" alt="house">
+                <li><a href="https://www.airbnb.com/east-millcreek-ut/stays" alt="bed">Bed and Breakfast</a></li>
+            </div>
+            <div class="aboutus">
+                <p class="spotlight3">About Us</p>
+                <p class="aboutinfo">The Eastmill Creek Chamber of Commerce is dedicated for the growth and promotion of the great community that exist here.</p>
+                <button>READ MORE</button>
+            </div>
+        </span>
+        <span class="divjoin">
+            <p class="join">
+                Join
+            </p>
+        </span>
+    </main>
+    <footer>
+        <img src='images/logo2mc.png' alt="Logo image" />
+        <nav class="headoffooter">
+            <h1>East Millcreek Chamber of <br class="commerce">Commerce</h1>
+            <p>E 3800 S<br>Salt Lake City, Ut 84109<br></p>
+        </nav>
+        <nav class="footerinfo">
+            <p>info@eastmill.org<br></p>
+            <p>(801) 424-0689<br></p>
+            <p>Location Map</p>
+        </nav>
+        <hr>
+        <div class="endfooter">
+            <p>
+                &copy; East Millcreek Chamber <br class="footerbr"> </p>
+            <p class="linebreak">|</p>
+            <p class="soulier">
+                Soulier <br class="footerbr"> </p>
+            <p class="linebreak">|</p>
+            <p>
+                WDD 230 Project
+            </p>
+            <p class="linebreak">|</p>
+            <div id='updates'></div>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
